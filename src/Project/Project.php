@@ -84,7 +84,7 @@ class Project
     /** @var string|null */
     public $assigneeType;
 
-    /** @var array|null */
+    /** @var \JiraRestApi\Issue\Version[]|null */
     public $versions;
 
     /** @var array|null */
