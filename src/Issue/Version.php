@@ -25,14 +25,26 @@ class Version implements \JsonSerializable
     /** @var \DateTime|null */
     public $releaseDate;
 
+    /** @var \DateTime|null */
+    public $startDate;
+
     /** @var bool */
     public $overdue;
 
     /** @var string|null */
     public $userReleaseDate;
 
+    /** @var string|null */
+    public $userStartDate;
+
     /** @var int */
     public $projectId;
+
+    /** @var string|null */
+    public $project;
+
+    /** @var string|null */
+    public $moveUnfixedIssuesTo;
 
     public function __construct($name = null)
     {
